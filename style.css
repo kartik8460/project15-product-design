@@ -332,4 +332,9 @@ nav {
     .work-together {
         padding: 1px 10px;
     }
+
+    .project-card .image {
+        height: fit-content;
+        padding-bottom: 50px;
+    }
 }

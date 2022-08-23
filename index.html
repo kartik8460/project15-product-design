@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
+    <!-- Header -->
     <header>
         <nav>
             <img  class="logo" src="./assets/logo.png" alt="" />
@@ -26,90 +27,96 @@
         </nav>
         <div class="header-main">
             <div class="header-image">
-                <img height="600" src="./assets/1.png" alt="" />
+                <img src="./assets/1.png" alt="" />
             </div>
             <div class="header-content">
                 <p class="intro text-red">Hello I'm Arthur</p>
                 <h1>Visual Designer</h1>
                 <p class="description">
-                    Lorem ipsum dolor sit amet, consectetur adiposcing elit. <br/>
-                    Morbi mollis augue eget mauris consectetur rutrum. Aliquam <br/>
+                    Lorem ipsum dolor sit amet, consectetur adiposcing elit.
+                    Morbi mollis augue eget mauris consectetur rutrum. Aliquam
                     maximus lorem in libero sagittis pulvinar
                 </p>
                 <button class="btn bg-red">ABOUT ME</button>
             </div>
         </div>
     </header>
+
+    <!-- Main Content -->
     <section>
+        <!-- Details Secion -->
         <div class="detail-section">
             <div class="background"></div>
-            <div class="cards">
-                <div class="card bg-grey card-inactive">
-                    <div>
-                        <img height="100" src="./assets/tablet.svg" alt="" />
-                        <h2>UI Design</h2>
-                        <p>
-                            Lorem ipsum dolor sit <br/>
-                            amet, consectetur <br/>
-                            adipiscing elit
-                        </p>
-                        <button class="know-more text-red">KNOW MORE &rarr;</button>
+            <div class="max-w">
+                <div class="cards">
+                    <div class="card bg-grey card-inactive">
+                        <div>
+                            <img height="100" src="./assets/tablet.svg" alt="" />
+                            <h2>UI Design</h2>
+                            <p>
+                                Lorem ipsum dolor sit
+                                amet, consectetur
+                                adipiscing elit
+                            </p>
+                            <button class="know-more text-red">KNOW MORE &rarr;</button>
+                        </div>
+                    </div>
+                    <div class="card bg-red card-active">
+                        <div>
+                            <img height="100" src="./assets/notepad.svg" alt="" />
+                            <h2>Product Design</h2>
+                            <p>
+                                Lorem ipsum dolor sit
+                                amet, consectetur
+                                adipiscing elit
+                            </p>
+                            <button class="know-more ">KNOW MORE &rarr;</button>
+                        </div>
+                    </div>
+                    <div class="card bg-grey card-inactive">
+                        <div>
+                            <img height="100" src="./assets/rule1.svg" alt="" />
+                            <h2>Branding</h2>
+                            <p>
+                                Lorem ipsum dolor sit
+                                amet, consectetur
+                                adipiscing elit
+                            </p>
+                            <button class="know-more text-red">KNOW MORE &rarr;</button>
+                        </div>
                     </div>
                 </div>
-                <div class="card bg-red card-active">
-                    <div>
-                        <img height="100" src="./assets/notepad.svg" alt="" />
-                        <h2>Product Design</h2>
-                        <p>
-                            Lorem ipsum dolor sit <br/>
-                            amet, consectetur <br/>
-                            adipiscing elit
-                        </p>
-                        <button class="know-more ">KNOW MORE &rarr;</button>
-                    </div>
-                </div>
-                <div class="card bg-grey card-inactive">
-                    <div>
-                        <img height="100" src="./assets/rule1.svg" alt="" />
-                        <h2>Branding</h2>
-                        <p>
-                            Lorem ipsum dolor sit <br/>
-                            amet, consectetur <br/>
-                            adipiscing elit
-                        </p>
-                        <button class="know-more text-red">KNOW MORE &rarr;</button>
-                    </div>
-                </div>
-                <div class="yr-exp">
-                    <div>
+                <div class="cards">
+                    <div class="yr-exp">
                         <h1 class="text-red">12</h1>
                         <p>Years Experience</p>
                     </div>
-                </div>
-                <div>
-                    <div class="small-card bg-grey">
-                        <h2 class="text-red">60+</h2>
-                        <p class="p-small">Clients</p>
+                    <div class="achievements">
+                        <div class="small-card bg-grey">
+                            <h2 class="text-red">60+</h2>
+                            <p class="p-small">Clients</p>
+                        </div>
+                        <div class="small-card bg-grey">
+                            <h2 class="text-red">122+</h2>
+                            <p class="p-small">Completed Projects</p>
+                        </div>
                     </div>
-                    <div class="small-card bg-grey">
-                        <h2 class="text-red">122+</h2>
-                        <p class="p-small">Completed Projects</p>
-                    </div>
-                </div>
-                <div>
-                    <div class="small-card bg-grey">
-                        <h2 class="text-red">08</h2>
-                        <p class="p-small">Years Experience</p>
-                    </div>
-                    <div class="small-card bg-grey">
-                        <h2 class="text-red">10</h2>
-                        <p class="p-small">Achievements</p>
+                    <div class="achievements">
+                        <div class="small-card bg-grey">
+                            <h2 class="text-red">08</h2>
+                            <p class="p-small">Years Experience</p>
+                        </div>
+                        <div class="small-card bg-grey">
+                            <h2 class="text-red">10</h2>
+                            <p class="p-small">Achievements</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="project-section">
+        <!-- Project Section -->
+        <div class="project-section max-w">
             <div class="project-header">
                 <div class="project-heading">
                     <h1>FEATURED PROJECTS</h1>
@@ -149,21 +156,25 @@
             </div>
         </div>
 
-        <div class="work-together bg-grey">
-            <div class="text">
-                <h1>
-                    Let's work together on <br/>
-                    your next project
-                </h1>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi mollis augue <br/>
-                    eget mauris consectetur rutrum.
-                </p>
+        <!-- Work Together Section -->
+        <div class="work-together max-w bg-grey">
+            <div class="work-together-content">
+                <div class="text">
+                    <h1>
+                        Let's work together on
+                        your next project
+                    </h1>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi mollis augue
+                        eget mauris consectetur rutrum.
+                    </p>
+                </div>
+                <button class="btn bg-red">CONTACT</button>
             </div>
-            <button class="btn bg-red">CONTACT</button>
         </div>
     </section>
 
+    <!-- Footer -->
     <footer>
         <ul class="footer-list">
             <li class="footer-list-item">HOME</li>
@@ -172,14 +183,16 @@
             <li class="footer-list-item">CONTACT</li>
         </ul>
 
-        <div class="footer-main bg-grey">
-            <div class="logo">
-                <img src="./assets/logo.png" alt="" />
-            </div>
-            <div class="social-media">
-                <i class="fa fa-facebook fa-2x" aria-hidden="true"></i>
-                <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
-                <i class="fa fa-youtube-play fa-2x" aria-hidden="true"></i>
+        <div class="bg-grey">
+            <div class="footer-main max-w">
+                <div class="logo">
+                    <img src="./assets/logo.png" alt="" />
+                </div>
+                <div class="social-media">
+                    <i class="fa fa-facebook fa-2x" aria-hidden="true"></i>
+                    <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
+                    <i class="fa fa-youtube-play fa-2x" aria-hidden="true"></i>
+                </div>
             </div>
         </div>
     </footer>
